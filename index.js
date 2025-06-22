@@ -13,8 +13,7 @@ const PORT = process.env.PORT || 8000;
 
 // Middleware
 app.use(cookieParser());
-app.use(cors({ origin: "https://chatai-3qu5.vercel.app
-", credentials: true }));
+app.use(cors({ origin: "https://chatai-3qu5.vercel.app", credentials: true }));
 app.use(express.json());
 
 // Routes
